@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <header>
+        
+        <span>Olá</span>
+        <h1>Eu sou Adrielle</h1>
+        <p>Developer Web, Mobile<br>& Designer UI/UX</p>
+        <a href="#secao-apresentacao" class="botao">Saiba mais</a>
+
+        <style>
+            .img{
+                height: 300px;
+                width: 200px;
+                object-fit: cover;
+            }
+        </style>
+
+    </header>
+
+    <section id="secao-apresentacao">
+        <div class="borda-laranja"></div>
+        <img class="foto" src="./img/Foto.png" alt="foto do programador ">
+        
+        <div class="textos-apresentacao">
+            <h2>Sobre mim</h2>
+            <div class="barra"></div>
+
+            <div class="paragrafo-apresentacao">
+                <p> 
+                    Sou Adrielle de Souza Santos, estudante de Análise e Desenvolvimento de Sistemas. 
+                    Este portfólio reflete minhas habilidades em desenvolvimento front-end, 
+                    e nele apresento projetos desenvolvidos em React Native com aplicação de design UI/UX.
+                </p>
+                
+                <p>
+                    Atualmente, estou dedicada a aprimorar minhas competências e me especializar em 
+                    Design de Interfaces e Experiência do Usuário.
+                </p>
+            </div>
+            <a href="#projetos" class="botao" id="projetos">Ver projetos</a>
+
+        </div>
+    </section>
+
+    <section class="projetos"> 
+        <div class="meus-projetos">
+            <h3 class="titulo-projetos">Meus Projetos</h3>
+            <div class="barra2"></div>
+            <p class="texto-projetos"> 
+                Meus projetos incluem desde a criação de protótipos e interfaces intuitivas no Figma até o 
+                desenvolvimento de aplicativos mobile com React Native, utilizando ferramentas como o Expo.dev.
+            </p>
+        </div>
+        <div class="container-projetos">
+            <ul>
+
+                <li>
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="./img/Projeto.png" class="img" alt="imagem de projetos">
+                        </div>
+                        <div class="card-content">
+                            <h2>Socorre Aqui</h2>
+                            <p>'Socorre Aqui' é um aplicativo mobile com tutoriais práticos para emergências do dia a dia.</p>
+                            <a href="https://snack.expo.dev/@adrielles/pi-socorreaqui" target="_blank" class="botao-expo">Ver no Snack Expo</a>
+                            <a href="https://www.figma.com/design/ruFJgVOuobC4eskCek3tck/Untitled?node-id=0-1&t=VQlAE6oS0xADiInO-1" target="_blank" class="botao-expo">Visualizar Design</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="./img/Projeto.png" class="img" alt="imagem de projetos">
+                        </div>
+                        <div class="card-content">
+                            <h2>Jardinagem Web</h2>
+                            <p>Projeto de design e prototipagem voltado para serviços de jardinagem.</p>
+                            <a href="https://www.figma.com/design/GwmyrGFsQdnTv1GG0Hvoyc/Jardinagem-Web?node-id=0-1&t=FNS0w8ZtibtGcGOG-1" target="_blank" class="botao-jardinagem">Visualizar Design</a>
+                            <a href="https://www.figma.com/proto/GwmyrGFsQdnTv1GG0Hvoyc/Jardinagem-Web?node-id=37-74&p=f&t=R2eJwBPxt6MxnDmu-8&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=37%3A74&hide-ui=1" 
+                                     target="_blank" class="botao-jardinagem">Simular Navegação</a>
+                        </div>
+                    </div>
+                </li>
+                
+                <li>
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="./img/Projeto.png" class="img" alt="imagem de projetos">
+                        </div>
+                        <div class="card-content">
+                            <h2>Titulo do Projeto</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, quasi.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+    </section>
+
+    <section id="secao-contato">
+        <div class="container-contato">
+            <div class="foto-cv">
+                <img class="foto-redonda" src="./img/Adrielle.jpg" alt="Foto de Adrielle">
+            </div>
+            <div class="informacoes-contato">
+                <h2>Adrielle de Souza Santos</h2>
+                <div class="botoes-contato">
+                    <a href="./img/AdrielleCV.pdf" download="Curriculo-Adrielle" class="botao-contato">Baixar CV</a>
+                    <a href="https://www.linkedin.com/in/adrielle-s-9075b8228/" target="_blank" class="botao-contato">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
